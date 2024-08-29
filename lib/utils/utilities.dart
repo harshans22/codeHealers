@@ -18,7 +18,7 @@ class Utils {
 
   static void fieldFocusChange(
       BuildContext context, FocusNode current, FocusNode nextFocus) {
-    //focus change
+        
     current.unfocus();
     FocusScope.of(context).requestFocus(nextFocus);
   }
