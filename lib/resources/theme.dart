@@ -8,10 +8,11 @@ class AppTheme {
       textTheme: const TextTheme(
         displayLarge: TextStyle(
           fontSize: 16,
+          
         ),
         displayMedium: TextStyle(
           fontSize: 14,
-          fontWeight: FontWeight.w600,
+          fontWeight: FontWeight.w700,
         ),
         displaySmall: TextStyle(
           fontSize: 12,
@@ -19,6 +20,7 @@ class AppTheme {
         ),
         titleLarge: TextStyle(
           fontSize: 18,
+          fontWeight: FontWeight.w700
         ),
         titleMedium: TextStyle(
           fontSize: 16,
